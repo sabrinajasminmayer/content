@@ -451,7 +451,7 @@ ul.download_monitor_file_browser li ul {
   padding: 0 0 0 28px;
 }
 ul.download_monitor_file_browser li ul.loading {
-  background: url(/wp-content/plugins/download-monitor/assets/images/ajax-loader.gif) no-repeat 24px 0;
+  background: url(content/wp-content/plugins/download-monitor/assets/images/ajax-loader.gif) no-repeat 24px 0;
   height: 32px;
 }
 /* Download list */
@@ -1629,13 +1629,13 @@ table.wp-list-table .column-thumb img {
   border: 0;
 }
 .dlm_download_page_download-monitor-reports #wpcontent .dlm-reports .dlm-insights-header .dlm-reports-actions .dlm-reports-header-date-selector .dlm_rdrs_overlay .date-picker-wrapper .dlm_rdrs_date .ui-datepicker-inline .ui-state-highlight {
-  background: #e6e6e6 url(/wp-content/plugins/download-monitor/assets/images/jquery-ui/ui-bg_glass_75_e6e6e6_1x400.png) 50% 50% repeat-x;
+  background: #e6e6e6 url(content/wp-content/plugins/download-monitor/assets/images/jquery-ui/ui-bg_glass_75_e6e6e6_1x400.png) 50% 50% repeat-x;
   color: #555555;
   border: 1px solid #D3D3D3;
 }
 .dlm_download_page_download-monitor-reports #wpcontent .dlm-reports .dlm-insights-header .dlm-reports-actions .dlm-reports-header-date-selector .dlm_rdrs_overlay .date-picker-wrapper .dlm_rdrs_date .ui-datepicker-inline .ui-state-active {
   border: 1px solid #aaaaaa;
-  background: #ffffff url(/wp-content/plugins/download-monitor/assets/images/jquery-ui/ui-bg_glass_65_ffffff_1x400.png) 50% 50% repeat-x;
+  background: #ffffff url(content/wp-content/plugins/download-monitor/assets/images/jquery-ui/ui-bg_glass_65_ffffff_1x400.png) 50% 50% repeat-x;
 }
 .dlm_download_page_download-monitor-reports #wpcontent .dlm-reports .dlm-insights-header .dlm-reports-actions .dlm-reports-header-date-selector .dlm_rdrs_overlay .date-picker-wrapper .dlm_rdrs_date .ui-datepicker-inline td,
 .dlm_download_page_download-monitor-reports #wpcontent .dlm-reports .dlm-insights-header .dlm-reports-actions .dlm-reports-header-date-selector .dlm_rdrs_overlay .date-picker-wrapper .dlm_rdrs_date .ui-datepicker-inline th {
@@ -3184,7 +3184,7 @@ Toggles
 }
 @font-face {
   font-family: 'DM Sans';
-  src: url('/wp-content/plugins/download-monitor/assets/font/dm/DMSans-Regular.ttf');
+  src: url('content/wp-content/plugins/download-monitor/assets/font/dm/DMSans-Regular.ttf');
 }
 .dlm-restricted-path .dlm-restricted-path__description {
   font-style: italic;
@@ -3370,7 +3370,7 @@ div#dlm-export-settings-upsell span {
   position: absolute;
   width: 100%;
   height: 50px;
-  background-image: url(/wp-content/plugins/download-monitor/assets/images/upsells/x-mas.jpg);
+  background-image: url(content/wp-content/plugins/download-monitor/assets/images/upsells/x-mas.jpg);
   left: 0;
   top: 0px;
   background-size: contain;
@@ -3411,7 +3411,7 @@ div#dlm-export-settings-upsell span {
   position: absolute;
   width: calc(100% - 30px);
   height: 50px;
-  background-image: url('/wp-content/plugins/download-monitor/assets/images/upsells/x-mas.jpg');
+  background-image: url('content/wp-content/plugins/download-monitor/assets/images/upsells/x-mas.jpg');
   left: 15px;
   top: 0;
   background-size: contain;
@@ -3437,10 +3437,10 @@ div#dlm-export-settings-upsell span {
   padding-left: 19px;
   background-repeat: no-repeat;
   background-position: left;
-  background-image: url(/wp-content/plugins/download-monitor/assets/images/filetypes/document.png);
+  background-image: url(content/wp-content/plugins/download-monitor/assets/images/filetypes/document.png);
 }
 .filetype-pdf {
-  background-image: url(/wp-content/plugins/download-monitor/assets/images/filetypes/document-pdf.png);
+  background-image: url(content/wp-content/plugins/download-monitor/assets/images/filetypes/document-pdf.png);
 }
 .filetype-m4r,
 .filetype-au,
@@ -3461,7 +3461,7 @@ div#dlm-export-settings-upsell span {
 .filetype-ra,
 .filetype-wav,
 .filetype-wave {
-  background-image: url(/wp-content/plugins/download-monitor/assets/images/filetypes/document-music.png);
+  background-image: url(content/wp-content/plugins/download-monitor/assets/images/filetypes/document-music.png);
 }
 .filetype-mpeg,
 .filetype-mpg,
@@ -3474,7 +3474,7 @@ div#dlm-export-settings-upsell span {
 .filetype-mp4,
 .filetype-divx,
 .filetype-wmv {
-  background-image: url(/wp-content/plugins/download-monitor/assets/images/filetypes/document-film.png);
+  background-image: url(content/wp-content/plugins/download-monitor/assets/images/filetypes/document-film.png);
 }
 .filetype-zip,
 .filetype-gz,
@@ -3482,23 +3482,23 @@ div#dlm-export-settings-upsell span {
 .filetype-sit,
 .filetype-tar,
 .filetype-7z {
-  background-image: url(/wp-content/plugins/download-monitor/assets/images/filetypes/document-zipper.png);
+  background-image: url(content/wp-content/plugins/download-monitor/assets/images/filetypes/document-zipper.png);
 }
 .filetype-xls,
 .filetype-tsv,
 .filetype-csv,
 .filetype-xlsx {
-  background-image: url(/wp-content/plugins/download-monitor/assets/images/filetypes/document-excel.png);
+  background-image: url(content/wp-content/plugins/download-monitor/assets/images/filetypes/document-excel.png);
 }
 .filetype-doc,
 .filetype-docx {
-  background-image: url(/wp-content/plugins/download-monitor/assets/images/filetypes/document-word-text.png);
+  background-image: url(content/wp-content/plugins/download-monitor/assets/images/filetypes/document-word-text.png);
 }
 .filetype-ai {
-  background-image: url(/wp-content/plugins/download-monitor/assets/images/filetypes/document-illustrator.png);
+  background-image: url(content/wp-content/plugins/download-monitor/assets/images/filetypes/document-illustrator.png);
 }
 .filetype-swf {
-  background-image: url(/wp-content/plugins/download-monitor/assets/images/filetypes/document-flash-movie.png);
+  background-image: url(content/wp-content/plugins/download-monitor/assets/images/filetypes/document-flash-movie.png);
 }
 .filetype-eps,
 .filetype-ps,
@@ -3522,14 +3522,14 @@ div#dlm-export-settings-upsell span {
 .filetype-xbm,
 .filetype-xpm,
 .filetype-xwd {
-  background-image: url(/wp-content/plugins/download-monitor/assets/images/filetypes/document-image.png);
+  background-image: url(content/wp-content/plugins/download-monitor/assets/images/filetypes/document-image.png);
 }
 .filetype-psd {
-  background-image: url(/wp-content/plugins/download-monitor/assets/images/filetypes/document-photoshop.png);
+  background-image: url(content/wp-content/plugins/download-monitor/assets/images/filetypes/document-photoshop.png);
 }
 .filetype-ppt,
 .filetype-pptx {
-  background-image: url(/wp-content/plugins/download-monitor/assets/images/filetypes/document-powerpoint.png);
+  background-image: url(content/wp-content/plugins/download-monitor/assets/images/filetypes/document-powerpoint.png);
 }
 .filetype-js,
 .filetype-css,
@@ -3541,14 +3541,14 @@ div#dlm-export-settings-upsell span {
 .filetype-php,
 .filetype-xml,
 .filetype-xsl {
-  background-image: url(/wp-content/plugins/download-monitor/assets/images/filetypes/document-code.png);
+  background-image: url(content/wp-content/plugins/download-monitor/assets/images/filetypes/document-code.png);
 }
 .filetype-rtx,
 .filetype-rtf {
-  background-image: url(/wp-content/plugins/download-monitor/assets/images/filetypes/document-text-image.png);
+  background-image: url(content/wp-content/plugins/download-monitor/assets/images/filetypes/document-text-image.png);
 }
 .filetype-txt {
-  background-image: url(/wp-content/plugins/download-monitor/assets/images/filetypes/document-text.png);
+  background-image: url(content/wp-content/plugins/download-monitor/assets/images/filetypes/document-text.png);
 }
 .dlm_file_type_info {
   display: inline-block;

@@ -51,7 +51,7 @@
   height: 100%;
   content: "";
   background-color: #419ccb;
-  background-image: url('/wp-content/plugins/download-monitor/assets/images/logo.png');
+  background-image: url('content/wp-content/plugins/download-monitor/assets/images/logo.png');
   background-size: 29px 28px;
   background-position: 1px center;
   background-repeat: no-repeat;
